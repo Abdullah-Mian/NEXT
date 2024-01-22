@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    font-family: "Roboto", sans-serif;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 0 20px;
+    height: 60px;
+    border-bottom: 1px solid #616060;
+  }
+  .n-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+  }
+  .n-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 20px;
+  }
+  .n-links a:hover {
+    color: #9d9b9b;
+  }
+  .logo {
+    padding: left 20px;
+  }
+  .logo a:hover {
+    color: #fff;
+  }
+  #l1 {
+    color: #fff;
+    font-size: 30px;
+  }
+  #l2 {
+    color: #fff;
+    font-size: 30px;
+  }
+  .n-buttons button {
+    background-color: #31313177;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 9px;
+    margin: 0 4px;
+    cursor: pointer;
+  }
+  .n-buttons button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .n-buttons button:hover {
+    background-color: #313131;
+  }
+  .n-buttons button:first-child a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 8px; /* Add margin between the two links */
+  }
+  .n-buttons button:first-child {
+    padding-top: 7px;
+  }
+
+  .n-buttons button:first-child a:last-child {
+    background-color: #000; /* Background color for the last link in the button */
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 0.02rem solid #5e5d5d;
+    margin: 1px;
+  }
+  .n-buttons button:first-child a:first-child {
+    color: #585757;
+  }
+  .n-buttons button:hover {
+    background-color: #313131;
+  }
+
+  .n-buttons #w {
+    background-color: #000000;
+    border: 0.02rem solid #5e5d5d;
+  }
+  .n-buttons #w a:first-child {
+    font-size: 16px;
+  }
+  .n-buttons #w a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 8px; /* Add margin between the two links */
+    font-weight: 560;
+  }
+  .n-buttons #w1 {
+    background-color: #fff;
+    border: 0.02rem solid #5e5d5d;
+  }
+  .n-buttons #w1 a {
+    color: #000;
+  }
+  .n-buttons #w:hover {
+    
+    background-color: #303030;
+  }
+
+  .n-buttons #w1:hover {
+    background-color: #a7a7a7;
+  }
+  .con-1{
+      color: #fff
+  }
+
+
+  .con-1 h1 {
+    font-size: 5vw;
+    font-weight: 700;
+    padding: 2rem;
+    margin: 0;
+  }
+  .con-1 {
+    background-color: #000;
+    color: #fff;
+    height: 90vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 0 3rem;
+    background-image: url(./marcus-dall-col-4ulffa6qoKA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .con-1para {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 2rem;
+    text-align: center;
+    max-width: 72vw;
+  }
+  .in-b {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .b-a a {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1rem 2rem;
+  text-align: center;        
+  text-decoration: none;
+  background-color: #31313177;
+  color: #fff; 
+  border-radius: 5px; 
+  margin-bottom: 1rem; 
+  display: inline-block;
+}
+.b-a a:first-child {
+  margin-right: 1rem; 
+  background-color: #fff;
+  color: #000;
+}
+.b-a a:last-child {
+  margin-left: 1rem;
+  background-color: #21212191;
+  color: #fff;
+}
+.b-a a:last-child:hover {
+  background-color: #212121;
+}
+.b-a a:first-child:hover {
+  background-color: #565656;
+}
+
+
+.b-a1 a {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;        
+  text-decoration: none;
+  color: #fff; 
+  margin-top: 1rem;
+  display: block; 
+}
+  .b-a1 a:hover {
+    cursor:copy; 
+  }
